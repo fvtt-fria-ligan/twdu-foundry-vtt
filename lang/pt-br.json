@@ -1,7 +1,23 @@
 {
+
+    "CONTROL": {
+        "addThreatLevel": "Aumentar Nível de Ameaça",
+        "subThreatLevel": "Diminuir Nível de Ameaça",
+        "displayThreatLevel": "Mostrar Interface de Ameaça"
+
+    },
     "twdu": {
+
+        "SheetClassCharacter": "Personagem Jogador",
+        "SheetClassCharacterLegacy": "Personagem Jogador (Legado)",
+        "SheetClassNPC": "PNJ",
+        "SheetClassHaven": "Refúgio",
+        "SheetClassChallenge": "Desafio",
+        "SheetClassAnimal": "Animal",
+
         "name": "Nome",
         "archetype": "Arquétipo",
+        "haven": "Refúgio",
         "background": "Histórico",
         "description": "Descrição",
         "pcAnchor": "Âncora PJ",
@@ -22,19 +38,19 @@
         "value": "Valor",
 
         "AGILITY": "Agilidade",
-        "STRENGTH": "Força",
-        "WITS": "Astúcia",
+        "STRENGTH": "Vigor",
+        "WITS": "Perspicácia",
         "EMPATHY": "Empatia",
-        "HEALTH": "Vitalidade",
+        "HEALTH": "Vida",
         "STRESS": "Estresse",
 
-        "closeCombat": "Lutar",
-        "endure": "Suportar",
-        "force": "Forçar",
+        "closeCombat": "Combate Próximo",
+        "endure": "Tolerância",
+        "force": "Força",
         "mobility": "Mobilidade",
-        "rangedCombat": "Atirar",
+        "rangedCombat": "Combate à Distância",
         "stealth": "Furtividade",
-        "scout": "Patrulhar",
+        "scout": "Reconhecimento",
         "survival": "Sobrevivência",
         "tech": "Tecnologia",
         "leadership": "Liderança",
@@ -43,7 +59,7 @@
 
         "base": "Base",
         "trained": "Treinado",
-        "expert": "Perito",
+        "expert": "Especialista",
         "master": "Mestre",
 
         "short": "Curto",
@@ -67,8 +83,8 @@
         "foodSources": "Fontes de Alimento",
 
         "drive": "Motivação",
-        "issues": "Problemas",
-        "issue": "Problema",
+        "issues": "Peculiaridades",
+        "issue": "Peculiaridade",
         "experience": "Experiência",
         "encumbrance": "Carga",
         "encSlots": "Espaços",
@@ -88,29 +104,33 @@
         "vehicle": "Veículo",
         "vehicles": "Veículos",
 
+
         "location": "Localização",
-        "protection": "Proteção",
+        "protection": "Nível de Armadura",
         "agilityPenalty": "Penalidade de Mobilidade",
         "penalty": "Penalidade",
         "damage": "Dano",
         "attack": "Dados de Ataque",
-        "isExplosive": "BP",
+        "isExplosive": "PE",
         "isExplosiveTooltip": "Esta arma é explosiva?",
         "bonus": "Bônus",
+        "bonusAmount": "Quantidade de Bônus",
         "range": "Alcance",
         "lethal": "Letal",
         "timeLimit": "Limite de Tempo",
         "recoveryTime": "Tempo de Recuperação",
 
-        "unharmed": "Ileso",
-        "bruised": "Escoreado",
-        "battered": "Machucado",
-        "broken": "Acabado",
+
+
+        "unharmed": "3 - Ileso",
+        "bruised": "2 - Machucado",
+        "battered": "1 - Surrado",
+        "broken": "0 - Incapacitado",
 
         "weight": "Peso",
         "effect": "Efeito",
         "details": "Detalhes",
-        "health": "Vitalidade",
+        "health": "Vida",
         "general": "Geral",
         "bioNotes": "Observações",
         "notes": "Notas",
@@ -121,24 +141,43 @@
         "requirements": "Requisitos",
         "items": "Itens",
         "maneuverability": "Manobrabilidade",
-        "hull": "Casco",
+        "hull": "Estrutura",
         "hasBonus": "Fornece um Bônus",
         "hasBonusTooltip": "Este Talento fornece um bônus para uma perícia ou para o dano?",
         "bonusType": "Tipo de Bônus",
         "prerequisite": "Pré-requisito",
 
-        "equipedGear": "Item Equipado",
-        "storedGear": "Item Armazenado",
+        "equipedGear": "Equipamento em Uso",
+        "storedGear": "Equipamento Armazenado",
         "equipedWeapons": "Armas Equipadas",
         "storedWeapons": "Armas Armazenadas",
         "equipedArmor": "Armadura Equipada",
         "storedArmor": "Armaduras Armazenadas",
         "storedVehicles": "Veículos Armazenados",
 
+        "npcs": "PNJs",
+        "rumors": "Rumores",
+        "challenges": "Desafios",
+        "endgame": "Objetivo Final",
+        "factions": "Facções",
+        "source": "Fonte",
+        "fate": "Destino",
+        "clock": "Relógio",
+        "secret": "Segredo",
+        "isSecret": "Este é um Segredo e ficará oculto dos jogadores. Clique para alternar",
+        "isNotSecret": "Este não é um Segredo e não ficará oculto dos jogadores. Clique para alternar",
+        "clockNoAdvance": "O Relógio não avançou.",
+        "clockAdvance": "O Relógio avançou.",
+
+
+        "threatLevel": "Nível de Ameaça",
         "threatDisplay": "Mostrar Nível de Ameaça aos Jogadores",
         "threatDisplayHint": "Se ativado, o Nível de Ameaça será exibido para os jogadores nos Controles de Camada.",
         "prototypeTokenSettings": "Usar Configurações Recomendadas para Token",
         "prototypeTokenSettingsHint": "Se ativado, as configurações do token serão ajustadas para as configurações recomendadas do sistema.",
+        "havenSurvivorDisplay": "Mostrar Retratos dos Sobreviventes do Refúgio",
+        "havenSurvivorDisplayHint": "Se ativado, os retratos dos sobreviventes do Refúgio serão exibidos na aba do refúgio na ficha.",
+
 
         "ui.icon": "Ícone",
         "ui.equip": "Equipar Item",
@@ -148,22 +187,26 @@
         "ui.chat": "Chat",
         "ui.edit": "Editar",
         "ui.wrongItemType": "Itens \"{type}\" não podem ser adicionados a um {actor}!",
-        "ui.cantRollWhenBroken": "Você não pode rolar quando Acabado!",
-        "ui.messedUp": "Você teve um deslize!",
+        "ui.cantRollWhenBroken": "Você não pode rolar quando Incapacitado!",
+        "ui.messedUp": "Você ferrou tudo!",
         "ui.subtotal": "Subtotal",
         "ui.skillDice": "Dados de Perícia",
         "ui.stressDice": "Dados de Estresse",
         "ui.addexp": "Clique Esquerdo para Adicionar Experiência, Clique Direito para Subtrair Experiência",
+        "us.survivorNotFound": "Sobrevivente ausente ou ID inválido; removendo da lista",
+        "ui.havenOnHavenDrop": "Refúgios e Desafios não podem ser soltos em Refúgios ou Desafios.",
+        "ui.noSkill": "Nenhuma perícia selecionada neste item de arma. Configure-a e tente novamente.",
 
-        "threatLevel": "Nível de Ameaça",
+
+
 
         "CHAT.SUCCESS": "Sucessos",
-        "ROLL.BASE.POOL": "Pool de Dados Base",
+        "ROLL.BASE.POOL": "Pool de Dados Básicos",
         "ROLL.TEST": "Teste",
         "ROLL.ROLL": "Rolar",
         "push": "Forçar",
         "ROLL.CANCEL": "Cancelar",
-        "ROLL.SKILL": "Pericia",
+        "ROLL.SKILL": "Perícia",
         "ROLL.PREC": "Recuperação Física",
         "ROLL.MREC": "Recuperação Mental",
         "ROLL.BONUS": "Adicionar Dados de Bônus",
@@ -178,5 +221,25 @@
     "YZUR": {
         "DIETERMS.SkillDie": "Sucessos de Dados de Perícia",
         "DIETERMS.StressDie": "Sucessos de Dados de Estresse"
+    },
+    "TYPES": {
+        "Actor.character": "Personagem",
+        "Actor.challenge": "Desafio",
+        "Actor.haven": "Refúgio",
+        "Actor.npc": "PNJ",
+        "Actor.animal": "Animal",
+        "Item.weapon": "Arma",
+        "Item.armor": "Armadura",
+        "Item.gear": "Equipamento",
+        "Item.tinyItem": "Item Pequeno",
+        "Item.project": "Projeto",
+        "Item.talent": "Talento",
+        "Item.criticalInjury": "Lesão Crítica",
+        "Item.vehicle": "Veículo",
+        "Item.issue": "Peculiaridade",
+        "Item.rumor": "Rumor",
+        "Item.challenges": "Desafios",
+        "Item.endgame": "Objetivo Final",
+        "Item.faction": "Facção"
     }
 }
